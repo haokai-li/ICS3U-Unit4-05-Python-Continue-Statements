@@ -17,7 +17,7 @@ def main():
     # process
     try:
         user_number = int(user_string)
-        for loop_number in range(user_number):
+        while loop_number < user_number:
             # input
             add_string = input("Enter the number to add: ")
             # process
@@ -26,6 +26,7 @@ def main():
                 if add_number < 0:
                     continue
                 answer_number = answer_number + add_number
+                loop_number = loop_number + 1
 
             except Exception:
                 # output
