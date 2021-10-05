@@ -4,8 +4,6 @@
 # Created on: Oct 2021
 # This Program is about continue statements
 
-import random
-
 
 def main():
     # This function is about continue statements
