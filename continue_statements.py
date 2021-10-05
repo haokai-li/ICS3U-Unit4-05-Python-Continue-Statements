@@ -25,8 +25,7 @@ def main():
                 add_number = int(add_string)
                 if add_number < 0:
                     continue
-                else:
-                    answer_number = answer_number + add_number
+                answer_number = answer_number + add_number
 
             except Exception:
                 # output
