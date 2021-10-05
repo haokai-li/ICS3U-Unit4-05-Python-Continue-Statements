@@ -2,13 +2,13 @@
 
 # Created by: Haokai Li
 # Created on: Oct 2021
-# This Program is about break statements
+# This Program is about continue statements
 
 import random
 
 
 def main():
-    # This function is about break statements
+    # This function is about continue statements
     loop_number = 0
     answer_number = 0
 
