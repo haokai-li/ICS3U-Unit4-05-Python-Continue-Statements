@@ -23,14 +23,15 @@ def main():
             # process
             try:
                 add_number = int(add_string)
+                loop_number = loop_number + 1
                 if add_number < 0:
                     continue
                 answer_number = answer_number + add_number
-                loop_number = loop_number + 1
 
             except Exception:
                 # output
                 print("You didn't enter an integer.")
+
         # output
         print("Sum of just the positive numbers is = {}".format(answer_number))
 
